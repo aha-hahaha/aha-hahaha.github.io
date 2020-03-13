@@ -17,10 +17,11 @@ var data=[
     ,{name:'大学英语',credit:2}
     ,{name:'软件技术导论',credit:2}
 ]
-var sum = data.reduce(function (prev, cur) {
+
+ var sum = data.reduce(function (prev, cur) {
         return cur.credit + prev;
     },0);
-console.log(sum);
+  console.log(sum);
 
     </script>
 </body>
