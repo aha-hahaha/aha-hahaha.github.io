@@ -29,8 +29,8 @@ data.stat={
     "min":reduce(data,(a,b)=>a<b.credit?a:b.credit),
     "total":reduce(data,(a,b)=>a+b.credit,0)
 }
-console.log("我的课程学分max"+data.stat.max);
-console.log("我的课程学分min"+data.stat.min);
+console.log("我的课程学分max "+data.stat.max);
+console.log("我的课程学分min "+data.stat.min);
 console.log("我的课程总学分是"+data.stat.total);
 
 //underscore方法
